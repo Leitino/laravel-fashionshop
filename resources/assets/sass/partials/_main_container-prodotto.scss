@@ -1,0 +1,25 @@
+.main_container-prodotto{
+  width: 100%;
+  height: 450px;
+  border: 10px solid $colore_primario;
+  .prodotto{
+    width: 50%;
+    float: left;
+    .prodotto_img{
+      width: 50%;
+      height: 100%;
+      margin:auto;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .dettagli{
+    width: 50%;
+    float: left;
+    color:$colore_primario;
+    h3{
+      color:green;
+    }
+  }
+}

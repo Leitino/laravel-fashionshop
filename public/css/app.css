@@ -1,0 +1,148 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  width: 95%;
+  height: 100%;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+}
+
+header .header_container {
+  width: 100%;
+  height: 100%;
+}
+
+header .header_container .header_container_login {
+  width: 100%;
+  height: 70px;
+  margin: auto;
+  background-color: #212123;
+}
+
+header .header_container .header_container_login .header_container_login-sconto {
+  height: 100%;
+  line-height: 70px;
+  color: white;
+  float: left;
+  padding-left: 10px;
+}
+
+header .header_container_menu {
+  width: 95%;
+  height: 130px;
+  margin: auto;
+  border-bottom: 1px solid #212123;
+}
+
+header .header_container_menu .header_container_menu-logo {
+  float: left;
+  line-height: 130px;
+}
+
+header .header_container_menu .header_container_menu-menus {
+  float: right;
+  line-height: 130px;
+}
+
+header .header_container_menu .header_container_menu-menus li {
+  display: inline-block;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+header .header_container_menu .header_container_menu-menus li:hover {
+  color: red;
+}
+
+.main_container-home {
+  width: 100%;
+  height: 500px;
+  border: 10px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main_container-home .prodotti {
+  width: 300px;
+  height: 400px;
+}
+
+.main_container-home .prodotti img {
+  width: 100%;
+}
+
+.main_container-home .prodotti img:hover {
+  border: 15px solid white;
+}
+
+.main_container-prodotto {
+  width: 100%;
+  height: 450px;
+  border: 10px solid #212123;
+}
+
+.main_container-prodotto .prodotto {
+  width: 50%;
+  float: left;
+}
+
+.main_container-prodotto .prodotto .prodotto_img {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+
+.main_container-prodotto .prodotto .prodotto_img img {
+  width: 100%;
+}
+
+.main_container-prodotto .dettagli {
+  width: 50%;
+  float: left;
+  color: #212123;
+}
+
+.main_container-prodotto .dettagli h3 {
+  color: green;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: green;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #212123;
+}
+
